@@ -6,7 +6,7 @@ steps:
       image: node
       cache: 
         - package.json
-        - package-lock.lock
+        - package-lock.json
       commands:
         - npm install
 
